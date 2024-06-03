@@ -1,0 +1,13 @@
+[package]
+name = "datafusion-example"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+datafusion = "37.1.0"
+tokio = { version = "1", features = ["full"] }
+async-trait = "0.1.41"
+tokio-stream = "0.1"
+csv = "1.1.6"
